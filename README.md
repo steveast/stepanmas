@@ -2,7 +2,8 @@
 
 
 ##### Compile
-    grunt && wkhtmltopdf index.html resume.pdf
+    gulp serve
+    gulp && wkhtmltopdf index.html Resume_Stepan_Maslennikov.pdf
     
 ##### Online
-    [resume.stepanmas.com](http://resume.stepanmas.com)
+[resume.stepanmas.com](http://resume.stepanmas.com)
