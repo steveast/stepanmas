@@ -1,8 +1,8 @@
-#My the resume/CV
+# My the resume/CV
 
 
-#####Compile
+##### Compile
     grunt && wkhtmltopdf index.html resume.pdf
     
-#####Online
+##### Online
     [resume.stepanmas.com](http://resume.stepanmas.com)
