@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My the resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepanmas/resume.git"
+  },
+  "author": "StepanMas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepanmas/resume/issues"
+  },
+  "homepage": "https://github.com/stepanmas/resume#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.3.0"
+  }
+}
