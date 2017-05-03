@@ -10,13 +10,69 @@ h1 {
     padding : 20px;
 
     img {
-        border : 1px solid #ccc;
+        border : 1px solid #eee;
         width  : 100%;
     }
+}
+
+.logo {
+    float       : right;
+    width       : 100px;
+    margin-left : 50px;
 }
 
 .head {
     * {
         margin-bottom : 20px;
     }
+}
+
+.experience {
+    > li {
+        padding       : 0 0 20px;
+        margin        : 0 0 20px;
+        border-bottom : 1px solid #eee;
+
+        &:last-child {
+            border-bottom : none;
+        }
+    }
+
+    i {
+        color       : #555;
+        font-weight : normal;
+    }
+}
+
+.portfolio {
+    a:after {
+        content : attr(href);
+    }
+}
+
+.b-post {
+    margin-bottom : 40px;
+
+    &__avatar {
+        float        : left;
+        margin-right : 10px;
+    }
+
+    &__time {
+        float : right;
+    }
+
+    &__txt {
+        clear       : both;
+        padding-top : 10px;
+    }
+}
+
+.b-username {
+    background : #fafafa;
+}
+
+.b-fon {
+    color      : #aaa;
+    font-style : italic;
 }
