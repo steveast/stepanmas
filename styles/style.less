@@ -51,15 +51,23 @@ h1 {
 }
 
 .b-post {
-    margin-bottom : 40px;
+    border-bottom  : 1px solid #eee;
+    padding-bottom : 10px;
+    margin-bottom  : 20px;
+
+    &:hover{
+        background : #eee;
+    }
 
     &__avatar {
         float        : left;
         margin-right : 10px;
+        background   : #fff;
     }
 
     &__time {
-        float : right;
+        float   : right;
+        padding : 3px 10px 0 0;
     }
 
     &__txt {
@@ -69,10 +77,15 @@ h1 {
 }
 
 .b-username {
+    padding    : 2px;
     background : #fafafa;
 }
 
 .b-fon {
     color      : #aaa;
     font-style : italic;
+}
+
+.feedback{
+    font-size :10px;
 }
