@@ -17,7 +17,7 @@
     "url": "https://github.com/stepanmas/resume/issues"
   },
   "homepage": "https://github.com/stepanmas/resume#readme",
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
