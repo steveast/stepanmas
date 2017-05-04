@@ -3,11 +3,17 @@ html, body {
 }
 
 h1 {
-    font-size : 50px;
+    font-size : 60px;
+}
+
+h3 {
+    font-size  : 24px;
+    margin-top : 10px;
 }
 
 .img {
     padding : 20px;
+    float   : right;
 
     img {
         border : 1px solid #eee;
@@ -22,12 +28,24 @@ h1 {
 }
 
 .head {
+    font-size  : 20px;
+    text-align : center;
+
     * {
         margin-bottom : 20px;
+    }
+
+    h4 {
+        font-size : 22px;
+    }
+
+    .col-xs-4{
+        font-size : 14px;
     }
 }
 
 .experience {
+
     > li {
         padding       : 0 0 20px;
         margin        : 0 0 20px;
@@ -35,6 +53,8 @@ h1 {
 
         &:last-child {
             border-bottom : none;
+            margin        : 0;
+            padding       : 0;
         }
     }
 
@@ -53,10 +73,19 @@ h1 {
 .b-post {
     border-bottom  : 1px solid #eee;
     padding-bottom : 10px;
-    margin-bottom  : 20px;
+    //margin-bottom  : 20px;
 
-    &:hover{
+    &:hover {
         background : #eee;
+    }
+
+    img {
+        width  : 25px;
+        height : 25px;
+
+        &[src="https://st.fl.ru/images/user-default-small.png"] {
+            display : none;
+        }
     }
 
     &__avatar {
@@ -66,8 +95,9 @@ h1 {
     }
 
     &__time {
-        float   : right;
-        padding : 3px 10px 0 0;
+        font-size : 8px;
+        float     : right;
+        padding   : 3px 10px 0 0;
     }
 
     &__txt {
@@ -77,15 +107,19 @@ h1 {
 }
 
 .b-username {
+    font-size  : 8px;
     padding    : 2px;
     background : #fafafa;
 }
 
 .b-fon {
+    clear      : both;
+    margin     : 3px 2px 0;
     color      : #aaa;
     font-style : italic;
+    font-size  : 8px;
 }
 
-.feedback{
-    font-size :10px;
+.feedback {
+    font-size : 10px;
 }
