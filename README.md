@@ -6,4 +6,4 @@
     
 ##### Online
 
-[stepanmas.ru](stepanmas.ru)
+[stepanmas.ru](http://stepanmas.ru)
