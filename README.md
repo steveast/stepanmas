@@ -6,4 +6,4 @@
     
 ##### Online
 
-[stepanmas.ru](http://stepanmas.ru)
+[Telegram](https://telegram.me/stepanmasbot)
