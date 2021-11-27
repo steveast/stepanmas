@@ -1,9 +1,9 @@
 # My the resume/CV
 
-##### Compile
-    gulp serve
-    gulp && wkhtmltopdf index.html Resume_Stepan_Maslennikov.pdf
+##### Second commands
+    npm start
+    npm run build
     
 ##### Online
 
-[Telegram](https://telegram.me/stepanmasbot)
+https://stepanmas.github.io/stepanmas/
